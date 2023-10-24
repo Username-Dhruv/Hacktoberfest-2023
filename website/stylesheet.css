@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(66, 239, 205);
+}
+
+#Home {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(57, 57, 176);
+  border-radius: 5px;
+  height: 3rem;
+  width: 100%;
+  gap: 5rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+p,
+h2,
+h4 {
+  color: black;
+}
+
+button {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  #dropmenu {
+    display: none;
+  }
+}
+
+#Apply_btn_div {
+  margin-top: 10px;
+}
